@@ -1,0 +1,120 @@
+@import url("base.css");
+
+/*Sobre*/
+.sobre{
+    background-color: var(--branco);
+    padding: 40px 20px;
+}
+
+.title{
+    font-size: 50px;
+    color: var(--preto);
+    text-align: center;
+}
+
+.container-sobre-img{
+    margin-top: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container-sobre-img img{
+    border-radius: 15px;
+    box-shadow: var(--shadow);
+    object-fit: cover;
+    max-width: 100%;
+    max-height: 400px;
+    transition: 300ms;
+}
+
+.container-sobre-img img:hover{
+    opacity: 0.8;
+}
+
+.container-sobre-textos{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+}
+
+.container-sobre-textos h1{
+    color: var(--vermelho);
+    font-size: 30px;
+}
+
+.container-sobre-textos p{
+    text-align: justify;
+    color: var(--preto);
+    max-width: 1000px;
+    font-size: 24px;
+}
+
+span{
+    color: var(--vermelho);
+}
+
+.button-serviços{
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.button-serviços button{
+    padding: 10px 20px;
+    border: none;
+    border-radius: 10px;
+    font-weight: 600;
+    transition: 300ms;
+}
+
+.button-serviços button:hover{
+    transform: scale(1.05);
+}
+
+.btn1-inicio{
+    background-color: var(--vermelho);
+    color: #fff;
+}
+
+.container-instagram{
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.container-instagram-img img{
+    width: 70px;
+    height: 70px;
+    object-fit: cover;
+    border-radius: 50%;
+    transition: 300ms;
+}
+
+.container-instagram-img img:hover{
+    transform: scale(1.1);
+}
+
+.container-instagram-texto h1{
+    color: var(--preto);
+    transition: 300ms;
+}
+
+.container-instagram-texto h1:hover{
+    color: var(--vermelho);
+}
+
+.container-instagram-texto p{
+    color: gray;
+    transition: 300ms;
+}
+
+.container-instagram-texto p:hover{
+    color: var(--preto);
+}

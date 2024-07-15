@@ -1,0 +1,93 @@
+@import url("base.css");
+
+/* Serviços */
+
+
+
+.container-serviço{
+    background-color: var(--branco);
+    padding: 40px 20px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+
+.container-serviço-img img{
+    border-radius: 15px;
+    box-shadow: var(--shadow);
+    object-fit: cover;
+    max-width: 500px;
+    max-height: 500px;
+    transition: 300ms;
+}
+
+.container-serviço-img img:hover{
+    opacity: 0.8;
+}
+
+.container-serviço-textos{
+    width: 40%;
+    text-align: justify;
+}
+
+.container-serviço-textos h1{
+    color: var(--preto);
+    font-size: 50px;
+}
+
+.container-serviço-textos p{
+    color: var(--preto);
+    font-size: 24px;
+}
+
+.preços{
+    font-weight: bold;
+}
+
+.valor{
+    color: var(--vermelho);
+}
+
+.button-serviços{
+    margin-top: 20px;
+    display: flex;
+    gap: 20px;
+}
+
+.button-serviços button{
+    padding: 10px 20px;
+    border: none;
+    border-radius: 10px;
+    font-weight: 600;
+    transition: 300ms;
+}
+
+.button-serviços button:hover{
+    transform: scale(1.05);
+}
+
+.btn1-inicio{
+    background-color: var(--vermelho);
+    color: #fff;
+}
+
+.btn2-serviços{
+    color: var(--branco);
+    background-color: var(--preto);
+}
+
+@media (max-width: 1000px) {
+    .container-serviço{
+        flex-direction: column;
+    }
+
+    .container-serviço-textos{
+        width: 100%;
+    }
+
+    .container-serviço-img img{
+        width: 100%;
+    }
+}
