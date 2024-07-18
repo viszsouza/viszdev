@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Visz | Desenvolvedor Web</title>
+
+    <!-- ICON -->
+    <link rel="icon" type="image/x-icon" href="/images/LogoVermelha.png">
+
+    <!-- META TAG -->
+    <meta property="og:type" content="website"/>
+    <meta property="og:title" content="Visz | Desenvolvedor Web"/>
+    <meta property="og:image" content="https://viszdev.vercel.app/images/SobreMim.jpg"/>
+    <meta property="og:description" content="Alcance novos clientes com o tráfego pago e melhore os seus resultados!"/>
+    <meta property="og:site_name" content="Visz | Desenvolvedor Web"/>
+
+    <!-- LINKS -->
+
+    <link rel="stylesheet" href="css/contato.css">
+    <script src="js/scripts.js" defer></script>
+
+</head>
+<body>
+    <!-- Whatsapp Flutuante -->
+    <div class="whatsapp">
+        <a href="https://api.whatsapp.com/send?phone=5581985742601&text=Ol%C3%A1,%20vim%20pelo%20site%20e%20gostaria%20de%20um%20or%C3%A7amento!" target="_blank"><img src="images/whatsapp.png" alt="Icone WhatsApp"></a>
+    </div>
+
+    <!-- Navbar -->
+    <nav class="nav">
+        <a href="index.html" class="logo"><img src="/images/LogoVermelha.png" alt="Logo VISZ"></a>
+
+        <button class="hamburguer"></button>
+
+        <ul class="nav-list">
+            <li><a href="sobre.html" class="roxo">Sobre</a></li>
+            <li><a href="serviços.html" class="roxo">Serviços</a></li>
+            <li><a href="portfolio.html" class="roxo">Portfólio</a></li>
+            <li><a href="contato.html" class="roxo">Contato</a></li>
+            <li><a href="https://api.whatsapp.com/send?phone=5581985742601&text=Ol%C3%A1,%20vim%20pelo%20site%20e%20gostaria%20de%20um%20or%C3%A7amento!" class="nav-orç" target="_blank">Solicitar Orçamento</a></li>
+        </ul>
+    </nav>
+
+    <!-- Contato -->
+    <section class="contato">
+        <div class="container-contato-textos">
+            <h1>Entre em Contato</h1>
+            <p>Estou sempre em busca de novas oportunidades e colaborações. Sinta-se à vontade para me enviar uma mensagem!</p>
+        </div>
+
+        <form action="enviar.php">
+            <div class="div-form">
+                <input type="text" name="nome" id="" placeholder="Nome" required>
+                <input type="email" name="email" id="" placeholder="E-mail" required>
+            </div>
+
+            <input type="text" name="mensagem" id="mensagem" placeholder="Mensagem" required>
+
+            <button type="submit">Enviar</button>
+        </form>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <!-- Primeira parte -->
+        <section class="footer-sec">
+            <div class="footer-content">
+                <h3 class="footer-h3">Contato</h3>
+
+                <div>
+                    <p class="footer-info">Instagram: @visz.dev</p>
+                    <p class="footer-info">WhatsApp: (81) 9 8574-2601</p>
+                    <p class="footer-info">E-mail: contatoviszdev@gmail.com</p>
+                </div>
+            </div>
+            <div class="footer-content">
+                <h3 class="footer-h3">Localização</h3>
+
+                <div>
+                    <p class="footer-info">Recife, Pernambuco</p>
+                    <!-- <p class="footer-info">CEP: 52050-280</p> -->
+                </div>
+            </div>
+        </section>
+
+        <!-- Linha divisória -->
+        <div id="footer-linha-divisoria"></div>
+
+        <!-- Segunda parte -->
+        <section class="footer-sec" id="footer-sec2">
+            <a href="https://www.instagram.com/visz.dev/" target="_blank"><p class="footer-copy">&copy; 2024 Visz, Inc.</p></a>
+
+            <div class="footer-redes-sociais">
+                <!-- Instagram -->
+                <a href="https://www.instagram.com/visz.dev/" target="_blank">
+                    <img src="images/FeInstagram.png" class="footer-icon" alt="">
+                </a> 
+            </div>
+        </section>
+    </footer>
+</body>

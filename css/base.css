@@ -289,6 +289,10 @@ footer{
 
 @media (max-width: 750px) {
     /* Footer */
+    footer{
+        padding: 40px 20px;
+    }
+
     .footer-sec{
     flex-direction: column;
     gap: 50px;
